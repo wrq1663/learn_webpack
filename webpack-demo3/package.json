@@ -1,0 +1,14 @@
+{
+  "name": "webpack-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "private":true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack",
+    "start": "webpack-dev-server --open --no-client-overlay-warnings"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
