@@ -1,0 +1,37 @@
+{
+  "id": "3506819",
+  "name": "吴润泉",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30178389",
+      "name": "会员",
+      "font_class": "huiyuan",
+      "unicode": "100da",
+      "unicode_decimal": 65754
+    },
+    {
+      "icon_id": "30178390",
+      "name": "笔记",
+      "font_class": "biji",
+      "unicode": "100db",
+      "unicode_decimal": 65755
+    },
+    {
+      "icon_id": "30178391",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "100dc",
+      "unicode_decimal": 65756
+    },
+    {
+      "icon_id": "30178392",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "100dd",
+      "unicode_decimal": 65757
+    }
+  ]
+}
