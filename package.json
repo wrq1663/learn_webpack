@@ -13,19 +13,26 @@
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
     "eslint": "^8.19.0",
     "eslint-webpack-plugin": "^3.2.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "less-loader": "^11.0.0",
+    "mini-css-extract-plugin": "^2.6.1",
     "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "postcss-preset-env": "^7.7.2",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
+    "thread-loader": "^3.0.4",
     "webpack": "^5.73.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+    "core-js": "^3.23.4",
     "lodash": "^4.17.21"
   }
 }

@@ -1,19 +1,15 @@
 {
-  "name": "webpack-sgg1",
+  "name": "webpack-sgg2",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"webpack --config ./config/webpack.prod.js",
+    "build:test":"webpack",
     "start":"npx webpack serve --config ./config/webpack.dev.js "
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "browserslist":[
-    "last 2 version",
-    "> 1%",
-    "not dead"
-  ]
+  "license": "ISC"
 }

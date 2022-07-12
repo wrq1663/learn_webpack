@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log((function(o,n){return o+n})),console.log("app")})();

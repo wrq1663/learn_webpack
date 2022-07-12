@@ -1,5 +1,6 @@
 const path = require('path')
 const ESLintPlugin = require('eslint-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -55,19 +56,27 @@ module.exports = {
       },
       {
         test:/\.js$/,
+        exclude:/node_modules/,
         use:{
           loader:"babel-loader",
-          options:{
-            presets:['@babel/perset-env']
-          }
         }
       }
     ]
+  },
+  devServer:{
+    host:'localhost',
+    port:'8088',
+    open:true,
+    compress: true,
   },
   plugins: [
     new ESLintPlugin({
       //检测哪些文件
       context:path.resolve(__dirname, "src")
+    }),
+    new HtmlWebpackPlugin({
+      template:path.resolve(__dirname,'./public/index.html'),
+      minify:true
     })
   ],
   mode: "development"

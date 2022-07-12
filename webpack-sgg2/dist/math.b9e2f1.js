@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack_sgg2=self.webpackChunkwebpack_sgg2||[]).push([[600],{52:(e,s,u)=>{function c(e,s){return e+s}u.r(s),u.d(s,{sum:()=>c})}}]);
